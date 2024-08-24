@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>L</a>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><span data-hover="Home">Home</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+            <div class="ml-lg-4">
+              <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                <i class="color-mode-icon"></i>
+                Color mode
+              </div>
+            </div>
+        </ul>
+    </nav>
+    
+    <div class="cursor"></div>
+    <div class="container">
+        <div class="project-details">
+            <h1>TODOLIST ME PROJECT </h1>
+            <p>
+                The TODOLIST ME PROJECT is a simple and user-friendly task management application built using Laravel.<br>
+                This project allows users to add, manage, and organize their tasks and products efficiently.<br>
+                The application is developed with Laravel, a powerful PHP framework known for its elegant syntax and robust features.<br>
+                Laravel's MVC (Model-View-Controller) architecture ensures a clean separation of concerns, making the application easy to maintain and extend.<br>
+                Users can add new tasks by filling out a form, and the task is then saved to the database and displayed on the user's task list.<br>
+                Laravel handles all database interactions using Eloquent ORM, which simplifies querying and data manipulation.<br>
+                The built-in authentication system ensures that only registered users can manage their tasks.<br>
+                Overall, this project is a practical demonstration of how Laravel can be used to build a robust and scalable task management system.
+            </p>
+            <div class="link">
+                <a href="https://github.com/LKiraAhmed/todolistme" target="_blank">
+                    <i class="fab fa-github"></i> LINK PROJECT
+                </a>
+            </div>
+            
+            <h2>Details PROJECT:</h2>
+            <ul>
+                <li>This project allows users to add tasks to a todolist.</li>
+                <li>Users can also add products to the todolist, along with a picture and some additional details.</li>
+                <li>Users can edit their accounts, including adding a profile picture.</li>
+                <li>The project includes an authentication system, but it doesn't include email verification.</li>
+                <li>Additional search feature.</li>
+            </ul>
+            
+        </div>           
+        <div class="project-image-container">
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/todolist/1.png')">
+                    <img src="images/todolist/1.png" alt="Project Image 1">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/todolist/2.png')">
+                    <img src="images/todolist/2.png" alt="Project Image 2">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/todolist/3.png')">
+                    <img src="images/todolist/3.png" alt="Project Image 3">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/todolist/4.png')">
+                    <img src="images/todolist/4.png" alt="Project Image 4">
+                </a>
+            </div>
+          
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/todolist/5.png')">
+                    <img src="images/todolist/5.png" alt="Project Image 5">
+                </a>
+            </div>
+       
+        </div>
+        <div id="imageModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+ 
+</body>
+</html>

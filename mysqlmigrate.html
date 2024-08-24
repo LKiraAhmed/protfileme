@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>L</a>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><span data-hover="Home">Home</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+            <div class="ml-lg-4">
+              <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                <i class="color-mode-icon"></i>
+                Color mode
+              </div>
+            </div>
+        </ul>
+    </nav>
+    
+    <div class="cursor"></div>
+    <div class="container">
+        <div class="project-details">
+            <h1>MYSQL TO SQLite</h1>
+            <p>
+                DataMigrate Package: DataMigrate is a PHP package designed for seamless data migration between MySQL and SQLite databases.<br>
+                It simplifies the process of transferring data from one database system to another, supporting customizable connections and column selection.<br>
+                Ideal for projects requiring efficient database synchronization.<br>
+                <strong>How to Download and Run the Package:</strong><br>
+                1. <strong>Download the Package from GitHub:</strong> Go to the <a href="https://github.com/LKiraAhmed/MYSQLTOSQLITE" target="_blank">DataMigrate GitHub repository</a> and click on the green <strong>"Code"</strong> button. Select <strong>"Download ZIP"</strong> to download the package.<br>
+                2. <strong>Extract the ZIP File:</strong> Once the download is complete, extract the ZIP file to a directory on your local machine using a tool like WinRAR or 7-Zip.<br>
+                3. <strong>Upload to Your Server:</strong> Use an FTP client or file manager to upload the extracted files to your web server. Place them in a directory where you can run PHP scripts.<br>
+                4. <strong>Set Up a Local Server:</strong> Ensure you have a local server environment like XAMPP, WAMP, or MAMP installed and running. This is necessary to execute PHP scripts and interact with databases.<br>
+                5. <strong>Run the Migration Script:</strong> Access your server via SSH or use a terminal on your local machine. Navigate to the directory where the `server.php` file is located. Execute the following command to start the migration process:<br>
+                <code>php server.php</code><br>
+                Ensure that you have configured the database connection details and column selections in `server.php` before running the script. If no specific tables or columns are specified, the package will automatically migrate the entire MySQL database to SQLite, including all tables and their data.
+            </p>
+            
+            <div class="link">
+                <a href="https://github.com/LKiraAhmed/MYSQLTOSQLITE" target="_blank">
+                    <i class="fab fa-github"></i> LINK PROJECT
+                </a>
+            </div>
+            
+            <h2>Features of DataMigrate Package:</h2>
+            <ul>
+                <li>Customizable Connections: Specify connection details for both MySQL and SQLite databases, ensuring flexibility and ease of use.</li>
+                <li>Select Columns for Migration: Transfer only the necessary data by selecting specific columns.</li>
+                <li>Automatic Table Creation: Automatically create destination tables based on the structure of the source table.</li>
+                <li>Full Database Migration: If no specific tables or columns are specified, the package will automatically migrate the entire MySQL database to SQLite, including all tables and their data.</li>
+                <li>Ease of Use: Start the migration process with a simple command, making it accessible for all users.</li>
+            </ul>
+        </div>           
+        <div class="project-image-container">
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/mysqlmigrate/1.png')">
+                    <img src="images/mysqlmigrate/1.png" alt="Project Image 1">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/mysqlmigrate/2.png')">
+                    <img src="images/mysqlmigrate/2.png" alt="Project Image 2">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/mysqlmigrate/3.png')">
+                    <img src="images/mysqlmigrate/3.png" alt="Project Image 3">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/mysqlmigrate/4.png')">
+                    <img src="images/mysqlmigrate/4.png" alt="Project Image 4">
+                </a>
+            </div>
+          
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/mysqlmigrate/6.png')">
+                    <img src="images/mysqlmigrate/6.png" alt="Project Image 6">
+                </a>
+            </div>
+            <div class="project-image">
+                <a href="#" onclick="openModal('images/mysqlmigrate/7.png')">
+                    <img src="images/mysqlmigrate/7.png" alt="Project Image 7">
+                </a>
+            </div>
+        </div>
+        <div id="imageModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+ 
+</body>
+</html>
