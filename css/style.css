@@ -126,7 +126,7 @@ body.dark-mode .project-details ul li::before {
 }
 
 
-.cursor {
+/* .cursor {
     position: absolute;
     width: 100px; 
     height: 100px; 
@@ -135,7 +135,7 @@ body.dark-mode .project-details ul li::before {
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: transform 0.1s ease-out;
-}
+} */
 body.dark-mode .cursor{
     background-color: #fff; 
 
